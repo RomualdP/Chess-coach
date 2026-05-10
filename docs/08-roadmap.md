@@ -6,12 +6,12 @@
 
 - [ ] Pre-dev chantiers (see `README.md` §10):
   - [ ] Wireframes for the 4 screens
-  - [ ] Knowledge-base format (frozen Zod schema + 1 full example)
-  - [ ] LLM prompts v0 (4–5 key prompts)
-  - [ ] Full Prisma schema
+  - [x] Knowledge-base format (v0 — `docs/06-pedagogy/knowledge-base-format.md`, sign-off pending)
+  - [x] LLM prompts v0 (`docs/06-pedagogy/llm-prompts.md`, sign-off pending)
+  - [x] Full Prisma schema (v0 — `docs/03-data-model.md`, sign-off pending)
   - [ ] Complete palettes for the 3 themes
-  - [ ] First 3 openings selected + drafting plan
-  - [ ] Formalised success metrics
+  - [x] First 3 openings selected + drafting plan (`docs/07-content/`, sign-off pending)
+  - [x] Formalised success metrics (`docs/01-product-spec.md`)
   - [x] Repo structure
   - [x] CLAUDE.md
 - [ ] Open decisions to lock in (see `02-architecture.md` "Open questions"):
