@@ -12,9 +12,9 @@
 - **cachedExplanations** — LLM explanation cache, keyed by position + level
 - **llmConversations** — chat history per session/position
 
-## Decisions to lock in
+## Decisions
 
-- ORM: Prisma (working assumption) vs Drizzle.
+- **ORM**: Prisma.
 - JSONB for variation trees on `openings.content`.
 - `userId` on every row from day one (even pre-multi-user).
 - Indexes: at least `userProgress(userId, openingId)`, `cachedExplanations(positionFen, level)`, `userRepertoires(userId)`.

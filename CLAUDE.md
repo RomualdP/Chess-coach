@@ -41,7 +41,7 @@ Monorepo managed with **pnpm workspaces + Turborepo**.
 - **Frontend**: Next.js 16 (App Router), React 19.2, TypeScript, Tailwind, shadcn/ui, TanStack Query, react-chessboard + chess.js, stockfish.wasm in a Web Worker, Serwist for PWA.
 - **Backend**: NestJS + TypeScript, Prisma ORM, `@mistralai/mistralai` SDK, Supabase Auth (JWT validation).
 - **DB**: Supabase Postgres (JSONB for variation trees).
-- **Hosting**: Railway (backend confirmed; frontend Railway vs Vercel TBD).
+- **Hosting**: Railway (frontend + backend), Supabase for DB and Auth.
 
 Open architectural decisions are tracked in `docs/02-architecture.md` under "Open questions". Do not commit code that depends on an unresolved decision without flagging it.
 

@@ -28,8 +28,8 @@ Calibration: Stockfish capped at depth 12–15; LLM is prompted to favour princi
 - Lightweight usage logger (Stockfish/LLM call counts per user)
 
 ### Hosting
-- Backend: Railway (confirmed)
-- Frontend: Railway *or* Vercel (open question)
+- Backend: Railway
+- Frontend: Railway
 - DB: Supabase
 
 ## Scaling-ready seams (don't build the future, don't lock it out either)
@@ -48,11 +48,14 @@ Phases: A = me + 5–10 close users (no change), B = 50–200 users (hybrid Stoc
 - Server-side LLM explanation cache at MVP; client-side cache in V2.
 - Full offline reading of bookmarked openings: V2.
 
+## Decisions locked in
+
+- **Frontend hosting**: Railway (single-platform with backend, simpler ops).
+- **ORM**: Prisma.
+- **Auth**: Supabase Auth wired from the first online deploy (no anonymous mode).
+
 ## Open questions
 
-- [ ] Frontend hosting: Railway vs Vercel?
-- [ ] ORM: Prisma vs Drizzle? (Prisma is the working assumption.)
-- [ ] Auth wired from first deploy or later?
 - [ ] Final palette and font choices (see `04-design-system.md`).
 
 ## Source

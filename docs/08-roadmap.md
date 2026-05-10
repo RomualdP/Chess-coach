@@ -15,9 +15,9 @@
   - [x] Repo structure
   - [x] CLAUDE.md
 - [ ] Open decisions to lock in (see `02-architecture.md` "Open questions"):
-  - [ ] Frontend hosting: Railway vs Vercel
-  - [ ] ORM: Prisma vs Drizzle
-  - [ ] Auth on day one or deferred
+  - [x] Frontend hosting: Railway
+  - [x] ORM: Prisma
+  - [x] Auth on day one (Supabase Auth wired from first deploy)
   - [ ] Final fonts + palettes
 - [ ] Implementation phases (TBD, draft):
   - [ ] Scaffold `apps/web` and `apps/api`, wire Turbo, CI
