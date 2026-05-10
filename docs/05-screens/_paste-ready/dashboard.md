@@ -1,5 +1,7 @@
 # Brief Claude Design — Dashboard / Répertoire
 
+> **Workflow recommandé** : colle d'abord [`00-canon.md`](./00-canon.md) dans la conversation Claude Design (une seule fois pour toute la session), puis ne colle que la section après le second `---` ci-dessous (à partir de `# Écran à concevoir`). Si tu n'as pas collé canon, colle ce fichier en entier — il est autonome.
+
 You are designing one screen of a French-language PWA. **Read this whole brief, then output high-fidelity wireframes for desktop (1280×) and mobile (390×844). All copy in French. No emojis. shadcn/ui primitives. Use the Classique theme by default.**
 
 ---
