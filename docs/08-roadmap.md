@@ -8,11 +8,11 @@ These prepare the ground for coding. Most are draft-and-sign-off cycles; once si
 
 | # | Chantier | Status | Doc |
 | --- | --- | --- | --- |
-| 1 | Wireframes for the 4 screens | ⏳ pending | `docs/05-screens/` |
+| 1 | Wireframes for the 4 screens | ✅ design briefs v0, sign-off pending | `docs/05-screens/` |
 | 2 | Knowledge-base format (frozen Zod) | ✅ v0, sign-off pending | `docs/06-pedagogy/knowledge-base-format.md` |
 | 3 | LLM prompts v0 | ✅ v0, sign-off pending | `docs/06-pedagogy/llm-prompts.md` |
 | 4 | Full Prisma schema | ✅ v0, sign-off pending | `docs/03-data-model.md` |
-| 5 | Complete palettes for the 3 themes | ⏳ pending | `docs/04-design-system.md` |
+| 5 | Complete palettes for the 3 themes | ✅ v0, sign-off pending | `docs/04-design-system.md` |
 | 6 | First 3 openings + drafting plan | ✅ locked, sign-off pending | `docs/07-content/` |
 | 7 | Formalised success metrics | ✅ done | `docs/01-product-spec.md` |
 | 8 | Repo structure | ✅ done | repo root |
